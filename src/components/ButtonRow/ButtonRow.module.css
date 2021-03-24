@@ -1,2 +1,12 @@
 .buttonRow {
+    overflow-x: auto;
+    white-space: nowrap;
+    margin-bottom: -20px;
+    margin-inline: -20px;
+    padding: 20px;
 }
+
+.buttonRow :last-child {
+    margin-right: 20px;
+}
+
